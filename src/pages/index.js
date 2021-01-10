@@ -10,19 +10,22 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 
+
 export default () => (
   <Layout>
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Main title of your landing page
+            Marketly
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Free landing page template to promote your business startup and generate leads for the
-            offered services
+            Ayudamos a Líderes Méxicanos a acelerar la inovacion de Productos
           </p>
-          <p className="mt-8 md:mt-12">
+          <p className="text-xl lg:text-2xl mt-6 font-light">
+            Somos Expertos trabajando en la intersección entre Marca, Tecnología y UX
+          </p>
+          <p className="mt-8 md:mt-12 " >
             <Button size="lg">Get Started</Button>
           </p>
           <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
@@ -34,11 +37,11 @@ export default () => (
     </section>
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Main Features</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">Lo nuestro</h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+              <p className="font-semibold text-xl">Marca</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -47,7 +50,7 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
+              <p className="font-semibold text-xl">Tecnología</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -56,7 +59,7 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
+              <p className="font-semibold text-xl">User Experience</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -113,10 +116,10 @@ export default () => (
         <LabelText className="text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="+90%" secondaryText="Stats Information" />
           </div>
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="+87%" secondaryText="Stats Information" />
           </div>
           <div className="w-full sm:w-1/3">
             <StatsBox primaryText="+100%" secondaryText="Stats Information" />
