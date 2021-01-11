@@ -21,15 +21,15 @@ export default () => (
           🐶
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Ayudamos a Líderes Méxicanos a acelerar la inovacion de Productos
+            Ayudamos a líderes méxicanos a acelerar la inovacion de productos
           </p>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Somos Expertos trabajando en la intersección entre Marca, Tecnología y UX
+            Somos expertos trabajando en la intersección entre Branding, Tecnología y UX
           </p>
           <p className="mt-8 md:mt-12 " >
-           <Link to="/form"> <Button size="lg">Get Started</Button></Link>
+           <Link to="/form"> <Button size="lg">Contáctanos</Button></Link>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
+          <p className="mt-4 text-gray-600">Nos pondremos en contacto muy pronto</p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
@@ -38,11 +38,11 @@ export default () => (
     </section>
     <section id="features" className="py-20 lg:pb-40 lg:pt-48">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl lg:text-5xl font-semibold">Lo nuestro</h2>
+        <h2 className="text-3xl lg:text-5xl font-semibold">Contamos con los mejores expertos en: </h2>
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Marca</p>
+              <p className="font-semibold text-xl">Branding</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -68,6 +68,9 @@ export default () => (
             </Card>
           </div>
         </div>
+      </div>
+      <div className="container mx-auto text-center lg:pt-48">
+      <h2 className="text-3xl lg:text-3xl font-semibold">Conoce nuestros servicios </h2>
       </div>
     </section>
     <SplitSection

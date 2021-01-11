@@ -7,13 +7,13 @@ import { Link } from "gatsby"
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
     <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
-      <div className="flex items-center text-2xl">
+      <div className="flex items-center text-5xl">
         <div className="w-12 mr-3">
-          <Link to="/" > <LogoIcon /> </Link>
+          <Link to="/" >🐶</Link>
         </div>
-        🐶
+        
       </div> 
-      <div className="flex mt-4 sm:mt-0">
+      <div className="flex mt-4 sm:mt-0 ">
         <AnchorLink className="px-4" href="#features">
           Features
         </AnchorLink>
