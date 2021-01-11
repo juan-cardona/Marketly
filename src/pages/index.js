@@ -9,6 +9,7 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import { Link, graphql } from "gatsby"
 
 
 export default () => (
@@ -26,7 +27,7 @@ export default () => (
             Somos Expertos trabajando en la intersección entre Marca, Tecnología y UX
           </p>
           <p className="mt-8 md:mt-12 " >
-            <Button size="lg">Get Started</Button>
+           <Link to="/form"> <Button size="lg">Get Started</Button></Link>
           </p>
           <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
         </div>
