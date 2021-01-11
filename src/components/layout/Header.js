@@ -28,7 +28,7 @@ const Header = () => (
         </AnchorLink>
       </div>
       <div className="hidden md:block">
-        <Button className="text-sm">Start Free Trial</Button>
+      <Link to="/form">  <Button className="text-sm">Start Free Trial</Button></Link>
       </div>
     </div>
   </header>

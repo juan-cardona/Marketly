@@ -149,7 +149,7 @@ export default () => (
         Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
       </p>
       <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
+      <Link to="/form">  <Button size="xl">Get Started Now</Button></Link>
       </p>
     </section>
   </Layout>
