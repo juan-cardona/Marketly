@@ -11,7 +11,7 @@ const Header = () => (
         <div className="w-12 mr-3">
           <Link to="/" > <LogoIcon /> </Link>
         </div>
-        Marketly
+        Grupo DOG
       </div> 
       <div className="flex mt-4 sm:mt-0">
         <AnchorLink className="px-4" href="#features">
