@@ -46,7 +46,8 @@ export default function About({ data }) {
                         </div>
                     </div>
 
-                    <form class="p-6 flex flex-col justify-center" name="contact" method="POST" data-netlify="true">
+                    <form class="p-6 flex flex-col justify-center" name="contact" method="POST" data-netlify="true" >
+                    <input type="hidden" name="form-name" value="contact" />
                         <div class="flex flex-col">
                             <label for="name" class="hidden">Full Name</label>
                             <input type="name" name="name" id="name" placeholder="Full Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"/>
